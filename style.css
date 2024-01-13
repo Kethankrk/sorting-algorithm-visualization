@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(24, 24, 24);
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}
+.alg-btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alg-btn:hover {
+  scale: 1.05;
+}
+
+.btn-div {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.active {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#array-container {
+  display: flex;
+  justify-content: center;
+}
+
+#input-div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+    color: white;
+    font-family: sans-serif;
+}
+.submit-btn-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input{
+    background-color: rgb(41, 41, 41);
+    border: 2px solid gray;
+    width: 50%;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: white;
+}
+
+#submit-btn{
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+#submit-btn:hover{
+    opacity: 90%;
+}
+
+.cell{
+    border: 1px solid white;
+    padding: 15px;
+    width: fit-content;
+    color: white;
+    font-weight: 500;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
